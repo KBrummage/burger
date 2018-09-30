@@ -4,8 +4,7 @@
   "description": "an app that uses MySQL, Node, Express, Handlebars, and a homemade ORM, which follows the MVC design pattern.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,6 +20,8 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+    "heroku": "^7.16.0",
+    "mysql": "^2.16.0",
+    "sequelize": "^4.39.0"
   }
 }
